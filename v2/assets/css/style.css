@@ -378,3 +378,9 @@ div.center-align {
     min-height: 50px;
     padding: 10px;
 }
+
+
+/* Remove inner shadow from inputs on mobile iOS */
+textarea, input[type="text"], input[type="password"] {
+    -webkit-appearance: none;
+}
